@@ -1,10 +1,12 @@
 {
-    "grimoirelab": {
-      "meta": {
-        "title": "GrimoireLab"
-      },
-      "git": [
-          "https://github.com/chaoss/grimoirelab.git"
-        ]
-    }
+  "clean-architecture": {
+    "git": [
+      "https://jakspok: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@github.com/bancolombia/innersource-portal"],
+    "github": [
+      "https://jakspok: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@github.com/bancolombia/innersource-portal"],
+    "github:issue": [
+      "https://jakspok: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@github.com/bancolombia/innersource-portal"],
+    "github:pull": [
+      "https://jakspok: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@github.com/bancolombia/innersource-portal"]
   }
+}

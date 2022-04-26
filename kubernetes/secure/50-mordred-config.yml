@@ -7,13 +7,15 @@ metadata:
 data:
   projects.json: |
     {
-      "grimoirelab": {
-        "meta": {
-          "title": "GrimoireLab"
-        },
+      "clean-architecture": {
         "git": [
-            "https://github.com/chaoss/grimoirelab.git"
-          ]
+          "https://jakspok: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@github.com/bancolombia/innersource-portal"],
+        "github": [
+          "https://jakspok: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@github.com/bancolombia/innersource-portal"],
+        "github:issue": [
+          "https://jakspok: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@github.com/bancolombia/innersource-portal"],
+        "github:pull": [
+          "https://jakspok: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@github.com/bancolombia/innersource-portal"]
       }
     }
   identities.yml: |
