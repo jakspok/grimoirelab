@@ -43,7 +43,7 @@ install_dependencies = ['pip', 'setuptools', 'wheel']
 
 all_repos = {
     'grimoirelab': [{'name': 'grimoirelab',  'dir': '',
-            'repo_url': 'http://github.com/chaoss/grimoirelab',
+            'repo_url': 'http://github.com/jakspok/grimoirelab',
             'version_file': os.path.join('grimoirelab', '_version.py')}],
     'grimoirelab-toolkit': [{'name': 'grimoirelab-toolkit', 'dir': '',
             'repo_url': 'http://github.com/chaoss/grimoirelab-toolkit',

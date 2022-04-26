@@ -4,7 +4,7 @@ services:
   mariadb:
     image: mariadb:10.0
     expose:
-      - "3306"
+      - "50000"
     environment:
       - MYSQL_ROOT_PASSWORD=
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
@@ -46,7 +46,7 @@ services:
 
   mordred:
     restart: on-failure:5
-    image: bitergia/mordred:latest
+    image: jakspok/mordred:latest
     volumes:
       - ../default-grimoirelab-settings/setup.cfg:/home/bitergia/conf/setup.cfg
       - ../default-grimoirelab-settings/aliases.json:/home/bitergia/conf/aliases.json
