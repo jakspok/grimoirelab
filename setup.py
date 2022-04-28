@@ -50,7 +50,6 @@ with codecs.open(version_py, 'r', encoding='utf-8') as fd:
 
 
 class TestCommand(TestClass):
-
     user_options = []
     __dir__ = os.path.dirname(os.path.realpath(__file__))
 
@@ -63,9 +62,9 @@ class TestCommand(TestClass):
         result = unittest.TextTestRunner(buffer=True).run(test_suite)
         sys.exit(not result.wasSuccessful())
 
+
 with open(os.path.join(here, 'requirements.txt')) as requirements:
     install_requires = requirements.readlines()
-
 
 cmdclass = {'test': TestCommand}
 
@@ -73,20 +72,20 @@ setup(name="grimoirelab",
       description="Tool set for software development analytics",
       long_description=long_description,
       long_description_content_type='text/markdown',
-      url="https://github.com/chaoss/grimoirelab",
+      url="https://github.com/jakspok/grimoirelab",
       version=version,
       author="Bitergia",
       author_email="jgb@bitergia.com",
       license="GPLv3",
       classifiers=[
-        'Development Status :: 5 - Production/Stable',
-        'Intended Audience :: Developers',
-        'Topic :: Software Development',
-        'License :: OSI Approved :: '
-        'GNU General Public License v3 or later (GPLv3+)',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8'
+          'Development Status :: 5 - Production/Stable',
+          'Intended Audience :: Developers',
+          'Topic :: Software Development',
+          'License :: OSI Approved :: '
+          'GNU General Public License v3 or later (GPLv3+)',
+          'Programming Language :: Python :: 3',
+          'Programming Language :: Python :: 3.7',
+          'Programming Language :: Python :: 3.8'
       ],
       keywords="development repositories analytics",
       packages=['grimoirelab'],
@@ -99,8 +98,8 @@ setup(name="grimoirelab",
           ]
       },
       setup_requires=[
-        'wheel',
-        'pandoc'],
+          'wheel',
+          'pandoc'],
       tests_require=[],
       install_requires=install_requires,
       cmdclass=cmdclass,
