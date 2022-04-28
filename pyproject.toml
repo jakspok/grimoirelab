@@ -50,7 +50,7 @@ sortinghat = {git = "https://github.com/chaoss/grimoirelab-sortinghat"}
 kidash = {git = "https://github.com/chaoss/grimoirelab-kidash"}
 grimoirelab-panels = {git = "https://github.com/chaoss/grimoirelab-sigils"}
 grimoireelk = {git = "https://github.com/chaoss/grimoirelab-elk"}
-sirmordred = {git = "https://github.com/chaoss/grimoirelab-sirmordred"}
+sirmordred = {git = "https://github.com/jakspok/grimoirelab-sirmordred"}
 cereslib = {git = "https://github.com/chaoss/grimoirelab-cereslib"}
 graal = {git = "https://github.com/chaoss/grimoirelab-graal"}
 
