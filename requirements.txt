@@ -11,6 +11,5 @@ grimoire-elk==0.100.0
 sortinghat==0.7.19
 kidash==0.4.22
 grimoirelab-panels==0.0.65
-sirmordred==0.2.44
 cereslib==0.1.16
 graal==0.2.9
