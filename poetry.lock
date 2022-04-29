@@ -1107,7 +1107,7 @@ sortinghat = {git = "https://github.com/chaoss/grimoirelab-sortinghat", branch =
 type = "git"
 url = "https://github.com/jakspok/grimoirelab-sirmordred"
 reference = "master"
-resolved_reference = "226447d017759bd81d534329372af561fd7fdb28"
+resolved_reference = "c53da27719f928b4876c4ce7ef8f74298da51e11"
 
 [[package]]
 name = "six"
